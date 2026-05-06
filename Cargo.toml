@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-cron"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Tauri 2.0 plugin for cron job scheduling"
 authors = ["xclhove"]
 edition = "2021"

@@ -3114,7 +3114,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-cron"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "cron_tab",
