@@ -2,16 +2,24 @@
   "name": "tauri-plugin-cron",
   "version": "0.1.0",
   "description": "A Tauri 2.0 plugin for cron job scheduling",
-  "types": "./index.ts",
-  "main": "./index.ts",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xclhove/tauri-plugin-cron.git"
   },
   "keywords": ["tauri", "plugin", "cron"],
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@tauri-apps/api": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5"
   }
 }
