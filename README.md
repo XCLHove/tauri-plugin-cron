@@ -11,21 +11,29 @@
 
 ## 安装
 
-### Rust（`src-tauri/Cargo.toml`）
+### Rust
 
 ```toml
+# src-tauri/Cargo.toml
 [dependencies]
 tauri-plugin-cron = "0.1"
 ```
 
-### npm（`package.json`）
+或用命令添加：
 
-```json
-{
-  "dependencies": {
-    "tauri-plugin-cron": "^0.1.0"
-  }
-}
+```bash
+cd src-tauri
+cargo add tauri-plugin-cron
+```
+
+### 前端
+
+```bash
+# npm
+npm install tauri-plugin-cron
+
+# pnpm
+pnpm add tauri-plugin-cron
 ```
 
 ### 权限（`src-tauri/capabilities/default.json`）

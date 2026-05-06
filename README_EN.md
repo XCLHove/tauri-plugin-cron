@@ -11,21 +11,29 @@ A Tauri 2.0 plugin for cron-based job scheduling. Jobs run on Rust backend threa
 
 ## Installation
 
-### Rust (`src-tauri/Cargo.toml`)
+### Rust
 
 ```toml
+# src-tauri/Cargo.toml
 [dependencies]
 tauri-plugin-cron = "0.1"
 ```
 
-### npm (`package.json`)
+Or via CLI:
 
-```json
-{
-  "dependencies": {
-    "tauri-plugin-cron": "^0.1.0"
-  }
-}
+```bash
+cd src-tauri
+cargo add tauri-plugin-cron
+```
+
+### Frontend
+
+```bash
+# npm
+npm install tauri-plugin-cron
+
+# pnpm
+pnpm add tauri-plugin-cron
 ```
 
 ### Permissions (`src-tauri/capabilities/default.json`)
