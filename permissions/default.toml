@@ -1,0 +1,7 @@
+[default]
+description = "Default permissions for the cron plugin"
+permissions = [
+    "allow-add-cron-job",
+    "allow-remove-cron-job",
+    "allow-list-cron-jobs",
+]

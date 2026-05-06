@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-list-cron-jobs"
+description = "Enables the list_cron_jobs command without any pre-configured scope."
+commands.allow = ["list_cron_jobs"]
+
+[[permission]]
+identifier = "deny-list-cron-jobs"
+description = "Denies the list_cron_jobs command without any pre-configured scope."
+commands.deny = ["list_cron_jobs"]

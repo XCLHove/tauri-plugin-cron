@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-add-cron-job"
+description = "Enables the add_cron_job command without any pre-configured scope."
+commands.allow = ["add_cron_job"]
+
+[[permission]]
+identifier = "deny-add-cron-job"
+description = "Denies the add_cron_job command without any pre-configured scope."
+commands.deny = ["add_cron_job"]

@@ -1,0 +1,26 @@
+[package]
+name = "tauri-plugin-cron"
+version = "0.1.0"
+description = "A Tauri 2.0 plugin for cron job scheduling"
+authors = ["xclhove"]
+edition = "2021"
+links = "tauri-plugin-cron"
+repository = "https://github.com/xclhove/tauri-plugin-cron"
+homepage = "https://github.com/xclhove/tauri-plugin-cron"
+license = "MIT"
+keywords = ["tauri", "plugin", "cron", "schedule"]
+categories = ["gui", "web-programming"]
+
+[lib]
+name = "tauri_plugin_cron"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-plugin = { version = "2", features = ["build"] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+cron_tab = { version = "0.2", features = ["sync"] }
+chrono = "0.4"
+uuid = { version = "1", features = ["v4"] }
